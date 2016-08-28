@@ -18,8 +18,8 @@ This is C code for analyzing things such as G87 format trajectory files.
     the file.
 
 
-  At each initial frame, it will analyze final frames with delta = 
+  At each initial frame, it will analyze final frames with
 
-    (final-initial) = 1, 2, 4, 8, 16, ..., (2^T), 2*(2^T), 3*(2^T), ..., N*(2^T)
+    delta = (final-initial) = 1, 2, 4, 8, 16, ..., (2^T), 2*(2^T), 3*(2^T), ..., N*(2^T)
 
     where T = TCYCLE and N = NCYCLE.
