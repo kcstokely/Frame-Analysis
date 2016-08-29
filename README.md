@@ -2,6 +2,15 @@
 
 This is C code for analyzing things such as G87 format trajectory files.
 
+  We can make things such as:
+    rotational correlation functions,
+    tranlational mean-squared displacement
+    scattering functions
+    four-point correlations
+    mobile-cluster identification
+    translational/rotational coupling
+    stress tensors
+    
 
   The program takes one command line argument, say, "xxx.g87", and outputs to "xxx.g87.yyyy.avg",
     where yyyy is the type of analysis run.
